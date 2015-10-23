@@ -19,4 +19,4 @@ dnhstyle: dnhstyle.o
 	$(CC) $(CCFLAGS) -o dnhstyle dnhstyle.o
 
 clean:
-	rm -f *.o *# *~ *.exe *.gcov *.gcda *.gcno tmp/*
+	rm -f *.o *# *~ *.exe *.gcov *.gcda *.gcno tmp/* dnhstyle
